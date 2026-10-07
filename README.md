@@ -291,5 +291,5 @@ Pour approfondir l’évaluation, il serait également utile de :
 
 **Yannick ASSI**
 
-Projet universitaire — Master MIASHS  
+Projet universitaire - Master MIASHS  
 Université Catholique de l’Ouest
