@@ -9,7 +9,7 @@ Projet de Computer Vision réalisé sur le dataset **FASSEG**, avec **Python et 
 L’objectif est d’attribuer une classe à chaque pixel d’une image afin d’identifier les différentes régions d’un visage.
 
 **Auteur : Yannick ASSI**  
-**Cadre : projet universitaire — Master MIASHS, UCO Angers**  
+**Cadre : projet universitaire - Master MIASHS, UCO Angers**  
 **Date : mars 2026**
 
 ---
@@ -62,14 +62,14 @@ Une répartition **80 % / 20 %** est proposée dans les consignes.
 
 ### ⚙️ Travail à effectuer
 
-#### Étape 1 — Explorer les données
+#### Étape 1 - Explorer les données
 
 - Examiner les images et leurs masques.
 - Vérifier la correspondance entre chaque image et son annotation.
 - Identifier les valeurs représentant les 9 classes.
 - Visualiser plusieurs couples image / masque pour comprendre les annotations.
 
-#### Étape 2 — Préparer les données
+#### Étape 2 - Préparer les données
 
 - Constituer les ensembles d’entraînement et de validation à partir des données d’apprentissage.
 - Harmoniser les dimensions des images et des masques.
@@ -77,7 +77,7 @@ Une répartition **80 % / 20 %** est proposée dans les consignes.
 - Préparer les masques comme des cartes d’étiquettes entières.
 - Conserver les identifiants des classes lors des transformations.
 
-#### Étape 3 — Construire le modèle U-Net
+#### Étape 3 - Construire le modèle U-Net
 
 - Définir un réseau convolutionnel adapté à la segmentation.
 - Mettre en place un encodeur pour extraire les caractéristiques.
@@ -85,7 +85,7 @@ Une répartition **80 % / 20 %** est proposée dans les consignes.
 - Utiliser des connexions entre encodeur et décodeur pour conserver les détails.
 - Produire des scores pour les **9 classes à chaque pixel**.
 
-#### Étape 4 — Entraîner et valider le modèle
+#### Étape 4 - Entraîner et valider le modèle
 
 - Choisir une fonction de perte adaptée à la classification multiclasse.
 - Entraîner le réseau sur l’ensemble d’entraînement.
@@ -93,7 +93,7 @@ Une répartition **80 % / 20 %** est proposée dans les consignes.
 - Observer l’évolution des pertes.
 - Ajuster la configuration à partir des résultats de validation.
 
-#### Étape 5 — Évaluer quantitativement
+#### Étape 5 - Évaluer quantitativement
 
 Évaluer le modèle final sur les données de test.
 
@@ -101,7 +101,7 @@ La métrique demandée dans les consignes est la **Pixel Accuracy** :
 
 > Proportion de pixels dont la classe prédite correspond à la classe réelle.
 
-#### Étape 6 — Évaluer qualitativement
+#### Étape 6 - Évaluer qualitativement
 
 Présenter des visualisations comparant :
 
